@@ -26,10 +26,10 @@ end
 
 if(alert == false) then
 
-Modo:RealPostRequest("http://n4.danbot.host:1650/?message=Message From Kewudeb 5: Server Start Detected\n\nPlayer List:\n"..onlineList, "test", true, returnRequest)
-
+--Modo:RealPostRequest("http://n4.danbot.host:1650/?message=Message From Kewudeb 5: Server Start Detected\n\nPlayer List:\n"..onlineList, "test", true, returnRequest)
+print("test")
 else
 
 Modo:RealPostRequest("http://n4.danbot.host:1650/?message=Message From Kewudeb 5: Server Start Detected\n\nPlayer List:\n"..onlineList.."\n@everyone UNWHITELISTED PLAYER PRESENT", "test", true, returnRequest)
-
+print("test2")
 end
