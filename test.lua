@@ -1,6 +1,6 @@
 local Modo = GetPartFromPort(1, "Modem")
 local life = GetPartFromPort(2, "LifeSensor")
-local whitelist = {"MMCraftin", "BenTim122"}
+local whitelist = {"MMCraftin", "BenTim122", "gavinx2031"}
 local onlineList = ""
 local alert = false
 
