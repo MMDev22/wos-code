@@ -16,10 +16,15 @@ local success, err = pcall(function()
              t = -101
              for count=1, 201 do
                 t = t + 1
+                Tele:Configure({["ViewCoordinates"] = x..","..y..","..z..","..t..",false"})
+                local res = Tele:GetCoordinate()
+                print(res)
              end
+          print("z"..z.." done")
           end
+        print("y"..y.." done")
       end
-      print(x.." done")
+      print("x"..x.." done")
       wait(30)
   end
 end)
