@@ -1,1 +1,2 @@
-print("Hi")
+local Tele = GetPartFromPort(1, "Telescope")
+print(Tele:GetCoordinate())
